@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My C++ Apps</title>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Anonymous Pro, JetBrains Mono;
+      font-family: 'JetBrains Mono', monospace; /* Apply JetBrains Mono font */
       margin: 0;
       padding: 20px;
       background-color: black; /* Change background color to black */
@@ -29,13 +31,24 @@
     a:hover {
       text-decoration: underline;
     }
+    .rounded-box {
+      background-color: #444; /* Dark gray background */
+      border: 2px solid #888; /* Gray border */
+      border-radius: 15px; /* Rounded corners */
+      padding: 20px; /* Padding inside the box */
+      margin: 10px 0; /* Margin outside the box */
+      color: white; /* Text color */
+    }
   </style>
 </head>
 <body>
   <h1>My C++ Apps</h1>
+  <div class="rounded-box">
+    Welcome to my collection of C++ Apps! Here you will find various examples of my work in C++ programming.
+  </div>
   <ul>
-    <li><a href="my_projects/Calculator.exe" download>Project 1: Calculator</a></li>
-    <li><a href="my_projects/ItemScanner" download>Project 2: ItemScanner</a></li>
+    <li><a href="my_projects/Calculator.exe" download>App 1: Calculator</a></li>
+    <li><a href="my_projects/ItemScanner.exe" download>App 2: ItemScanner</a></li>
     <!-- Add more projects as needed -->
   </ul>
 </body>
